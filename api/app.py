@@ -131,7 +131,3 @@ def recommend_penginapan():
         'price': (100 - json_from_reqs['stay_preference'])/100
         })
     return df_penginapan.show_data_frame()
-
-# Menjalankan file python
-if __name__ == '__main__':
-    app.run(port=5000)
